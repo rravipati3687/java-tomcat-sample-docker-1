@@ -25,7 +25,7 @@ pipeline {
 
         stage('Stage1') {
           steps {
-            sh "touch test.txt"
+            sh 'touch test'
           }
         }
 
