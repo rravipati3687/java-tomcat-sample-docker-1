@@ -25,7 +25,7 @@ pipeline {
 
         stage('Stage1') {
           steps {
-            sh 'cat test.txt'
+            sh 'cat /root/test.txt'
           }
         }
 
