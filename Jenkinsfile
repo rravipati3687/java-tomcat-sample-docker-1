@@ -25,7 +25,7 @@ pipeline {
 
         stage('Stage1') {
           steps {
-            sh 'sh "touch test"'
+            sh "touch test"
           }
         }
 
